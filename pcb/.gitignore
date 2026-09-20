@@ -1,0 +1,6 @@
+*.bak
+*.lock
+
+_autosave*
+history/
+DrumTime-backups/
