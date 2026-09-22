@@ -661,13 +661,33 @@
         "uuid": "8a637056-cf4c-4480-be46-24692ba024f5"
       }
     ],
-    "used_designators": "D1,#PWR1-11,R1-2,USB1,U1",
+    "used_designators": "J1-5,M1-4,C1-28,D1,#PWR1-72,R1-14,USB1,U1-7",
     "variants": []
   },
   "sheets": [
     [
       "8a637056-cf4c-4480-be46-24692ba024f5",
       "Root"
+    ],
+    [
+      "486ab8d1-e9fd-47b3-8c9c-d6a38ec8b696",
+      "Motor"
+    ],
+    [
+      "557b79e9-0155-4060-8147-8b4d2321e873",
+      "Motor1"
+    ],
+    [
+      "23b637ef-3eef-4b8e-93a7-66f02b95864a",
+      "Motor2"
+    ],
+    [
+      "acdea1bc-8fac-467e-9420-a39fca1152d6",
+      "Motor3"
+    ],
+    [
+      "546abbe6-3c6f-4a83-9e22-cbdf5f6186c9",
+      "Motors"
     ]
   ],
   "text_variables": {},
