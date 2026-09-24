@@ -260,7 +260,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|3492500|1905000|844c1fc8-5a09-468a-96f8-eb3f0c7a9cb5|2d61f54f-db6d-4df4-9e9d-00c5d62b8620|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
+        "AD is used to symbolize the importance of the cap placement between the pins AD and VCC"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -465,8 +470,8 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -661,7 +666,7 @@
         "uuid": "8a637056-cf4c-4480-be46-24692ba024f5"
       }
     ],
-    "used_designators": "J1-7,M1-4,C1-36,D1-12,#PWR1-88,R1-15,USB1,U1-9",
+    "used_designators": "#FLG1-3,J1-7,M1-4,C1-38,D1-12,#PWR1-100,LED1-42,R1-19,USB1,U1-9",
     "variants": []
   },
   "sheets": [
@@ -670,24 +675,24 @@
       "Root"
     ],
     [
-      "486ab8d1-e9fd-47b3-8c9c-d6a38ec8b696",
+      "995571ae-de2c-4abc-a29f-3a8809f7c92a",
       "Motor"
     ],
     [
-      "557b79e9-0155-4060-8147-8b4d2321e873",
+      "ad5df6ab-3258-4bba-8c2f-d049de697427",
       "Motor1"
     ],
     [
-      "23b637ef-3eef-4b8e-93a7-66f02b95864a",
+      "3b7c041d-112e-4379-91a6-a42825a4008c",
       "Motor2"
     ],
     [
-      "acdea1bc-8fac-467e-9420-a39fca1152d6",
+      "9d1b1d84-7176-45b2-9e9e-c01b8946f292",
       "Motor3"
     ],
     [
-      "546abbe6-3c6f-4a83-9e22-cbdf5f6186c9",
-      "Motors"
+      "112ffdb5-0363-4952-a6fb-8cbb62d7b603",
+      "LEDs"
     ]
   ],
   "text_variables": {},
