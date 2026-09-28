@@ -389,12 +389,6 @@
 		(uuid "1b6ede9b-b87b-4be6-a5b4-924e09f205e1")
 	)
 	(junction
-		(at 101.6 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2287d2d2-9439-4ab5-ac60-25b1dc2c9a23")
-	)
-	(junction
 		(at 63.5 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -465,12 +459,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54561ec5-d072-49d7-a989-616bead7c520")
-	)
-	(junction
-		(at 101.6 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55bce4b2-201a-4f31-92e3-d557f5b36507")
 	)
 	(junction
 		(at 25.4 139.7)
@@ -545,12 +533,6 @@
 		(uuid "f03fff20-890d-44d4-8ead-d8d78d0770cb")
 	)
 	(junction
-		(at 101.6 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54c149f-c04d-4ab3-925d-ddcaf4e826e9")
-	)
-	(junction
 		(at 101.6 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -561,16 +543,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fffccf86-20b9-46a8-9240-99dd20f14483")
-	)
-	(wire
-		(pts
-			(xy 101.6 88.9) (xy 101.6 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00215ffe-8680-4323-b08f-a29b79b50a6e")
 	)
 	(wire
 		(pts
@@ -754,16 +726,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20fad4b8-446b-44fd-a1ea-0e8b10d49df7")
-	)
-	(wire
-		(pts
 			(xy 41.91 114.3) (xy 50.8 114.3)
 		)
 		(stroke
@@ -771,16 +733,6 @@
 			(type default)
 		)
 		(uuid "2226e600-55b9-44a5-b781-b6f8c83e84de")
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 101.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249f2f62-39b7-4feb-a068-11c38bb8bf36")
 	)
 	(wire
 		(pts
@@ -914,16 +866,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5147b40f-5283-4f35-90fa-7f404fecc664")
-	)
-	(wire
-		(pts
 			(xy 101.6 38.1) (xy 101.6 50.8)
 		)
 		(stroke
@@ -941,16 +883,6 @@
 			(type default)
 		)
 		(uuid "554a651c-093e-4b14-87e9-1d607d32eb41")
-	)
-	(wire
-		(pts
-			(xy 101.6 114.3) (xy 107.95 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557c1210-cc5b-4389-a691-49e846749869")
 	)
 	(wire
 		(pts
@@ -1244,26 +1176,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 107.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97454fa6-b3c2-4709-9837-ad9f47bdfd27")
-	)
-	(wire
-		(pts
-			(xy 118.11 88.9) (xy 127 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9944767b-ed56-43f9-9465-6bfbc9b5204a")
-	)
-	(wire
-		(pts
 			(xy 25.4 88.9) (xy 25.4 101.6)
 		)
 		(stroke
@@ -1354,16 +1266,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 127 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b432b349-2357-43e5-8b63-b9e0ea1f9de0")
-	)
-	(wire
-		(pts
 			(xy 25.4 152.4) (xy 31.75 152.4)
 		)
 		(stroke
@@ -1441,16 +1343,6 @@
 			(type default)
 		)
 		(uuid "c907be5f-3329-45ee-a861-78fd7aafcd7b")
-	)
-	(wire
-		(pts
-			(xy 101.6 101.6) (xy 107.95 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5039ac-0146-4b39-bfa6-45569a226d60")
 	)
 	(wire
 		(pts
@@ -1730,28 +1622,6 @@
 		)
 		(uuid "32efa2c7-9583-455e-a7ac-aed6ff4634bc")
 	)
-	(hierarchical_label "34"
-		(shape output)
-		(at 127 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37df92e9-6507-4e0d-b2c2-9dca2846a0e0")
-	)
-	(hierarchical_label "35"
-		(shape output)
-		(at 127 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b9b2410-b7bf-418e-9407-64233331699c")
-	)
 	(hierarchical_label "1"
 		(shape output)
 		(at 50.8 25.4 0)
@@ -2016,17 +1886,6 @@
 		)
 		(uuid "ebf96f7f-1171-47a7-b13c-57a2681ec1f9")
 	)
-	(hierarchical_label "36"
-		(shape output)
-		(at 127 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f69aa97e-4fa6-4b35-8858-aeebebfe0ac8")
-	)
 	(hierarchical_label "16"
 		(shape output)
 		(at 88.9 38.1 0)
@@ -2050,7 +1909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09a009a9-4a18-4e7f-bb9e-1ff73156a778")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 35.052 22.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2004,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d913481-b627-4fd4-88be-191f0e008467")
-		(property "Reference" "LED22"
+		(property "Reference" "LED21"
 			(at 73.152 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2117,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED22")
+					(reference "LED21")
 					(unit 1)
 				)
 			)
@@ -2276,7 +2135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0de2947c-15b2-4bde-b9b6-6e9d16aa1fad")
-		(property "Reference" "LED6"
+		(property "Reference" "LED5"
 			(at 35.052 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +2230,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED6")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -2389,7 +2248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10b21af6-7755-49a7-97af-5ccdb26cc25a")
-		(property "Reference" "LED34"
+		(property "Reference" "LED33"
 			(at 111.252 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,7 +2343,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED34")
+					(reference "LED33")
 					(unit 1)
 				)
 			)
@@ -2502,7 +2361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17326195-45b8-4f33-8bce-293b7a6f949e")
-		(property "Reference" "LED17"
+		(property "Reference" "LED16"
 			(at 73.152 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2597,7 +2456,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED17")
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a3109f9-c55e-4881-80cb-24a7331aa64e")
-		(property "Reference" "LED15"
+		(property "Reference" "LED14"
 			(at 35.052 187.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2710,7 +2569,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED15")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdb1954-aaf4-4be6-9152-1e4eb9f1ffcb")
-		(property "Reference" "LED13"
+		(property "Reference" "LED12"
 			(at 35.052 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,7 +2682,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED13")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -2841,7 +2700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "246e52a8-3918-4cb5-8c0e-45c590818ad7")
-		(property "Reference" "LED24"
+		(property "Reference" "LED23"
 			(at 73.152 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2795,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED24")
+					(reference "LED23")
 					(unit 1)
 				)
 			)
@@ -2954,7 +2813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25e2875e-ad08-42ff-95df-090f57f75dc2")
-		(property "Reference" "LED4"
+		(property "Reference" "LED3"
 			(at 35.052 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,233 +2908,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:0603Whitelight_C2290")
-		(at 113.03 100.33 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a371487-5055-4873-a725-bcdd3674fea3")
-		(property "Reference" "LED36"
-			(at 111.252 98.552 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 114.3 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:LED0603-R-RD_WHITE"
-			(at 113.03 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
-			(at 113.03 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0603"
-			(at 113.03 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 113.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0603W"
-			(at 113.03 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2290"
-			(at 113.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1a5b84b8-7c56-4760-b779-103f3292e839")
-		)
-		(pin "1"
-			(uuid "5f8ae140-7a9f-480e-afef-bad38d7c29dd")
-		)
-		(instances
-			(project "DrumTime"
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:0603Whitelight_C2290")
-		(at 113.03 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2fb28be3-0c47-47c2-a640-01c6f0a3c39e")
-		(property "Reference" "LED37"
-			(at 111.252 111.252 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 114.3 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:LED0603-R-RD_WHITE"
-			(at 113.03 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
-			(at 113.03 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0603"
-			(at 113.03 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 113.03 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0603W"
-			(at 113.03 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2290"
-			(at 113.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f70f03d5-a908-48f0-ac86-8de390ea6ff7")
-		)
-		(pin "1"
-			(uuid "c5f9aa25-cceb-4ecf-974d-14ff96ef3647")
-		)
-		(instances
-			(project "DrumTime"
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED37")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -3293,7 +2926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3942a3cd-3f5b-4278-857b-008f0051139a")
-		(property "Reference" "LED16"
+		(property "Reference" "LED15"
 			(at 73.152 22.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3388,7 +3021,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED16")
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -3406,7 +3039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b39160f-e8d3-4609-906c-3c471f37532d")
-		(property "Reference" "LED11"
+		(property "Reference" "LED10"
 			(at 35.052 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3501,7 +3134,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED11")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41e4aa91-eef1-4a10-814b-a5481cf2bfd8")
-		(property "Reference" "LED21"
+		(property "Reference" "LED20"
 			(at 73.152 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3247,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED21")
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47aca938-eb71-46f4-8e99-74e4e54a9f5f")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0100"
 			(at 25.4 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3692,7 +3325,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "#PWR094")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -3710,7 +3343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fcf9fd7-26d7-4bb6-b33b-72860cdc0932")
-		(property "Reference" "LED9"
+		(property "Reference" "LED8"
 			(at 35.052 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3438,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED9")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5127c467-7fff-44bf-bb5d-ccba80d65f89")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0101"
 			(at 63.5 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3883,7 +3516,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "#PWR095")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3901,7 +3534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e980206-e3c1-411a-85fe-55a821bdb42f")
-		(property "Reference" "LED30"
+		(property "Reference" "LED29"
 			(at 111.252 22.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +3629,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED30")
+					(reference "LED29")
 					(unit 1)
 				)
 			)
@@ -4014,7 +3647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fdddb85-0fd6-4187-8152-68f2671a1d57")
-		(property "Reference" "LED3"
+		(property "Reference" "LED2"
 			(at 35.052 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +3742,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -4127,7 +3760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61c05dab-42e2-44a2-ad4d-ecb5db425d63")
-		(property "Reference" "LED10"
+		(property "Reference" "LED9"
 			(at 35.052 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +3855,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED10")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -4240,7 +3873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "694305c3-bbca-4389-af3d-f8e538c367b6")
-		(property "Reference" "LED33"
+		(property "Reference" "LED32"
 			(at 111.252 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +3968,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED33")
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -4353,7 +3986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69da4d5c-4612-4021-adbe-1968b741ea4f")
-		(property "Reference" "LED7"
+		(property "Reference" "LED6"
 			(at 35.052 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4448,7 +4081,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED7")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -4466,7 +4099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b837030-c15c-49c2-b306-b17d033185bb")
-		(property "Reference" "LED28"
+		(property "Reference" "LED27"
 			(at 73.152 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4194,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED28")
+					(reference "LED27")
 					(unit 1)
 				)
 			)
@@ -4579,7 +4212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71d8dca5-f6aa-4751-b6a9-36acbbe15188")
-		(property "Reference" "LED25"
+		(property "Reference" "LED24"
 			(at 73.152 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4307,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED25")
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -4692,7 +4325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7de83698-f573-428a-b6f2-11f689591e72")
-		(property "Reference" "LED32"
+		(property "Reference" "LED31"
 			(at 111.252 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,120 +4420,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:0603Whitelight_C2290")
-		(at 113.03 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7dfea66f-9ff4-47cf-87aa-ee1a31b98237")
-		(property "Reference" "LED35"
-			(at 111.252 85.852 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 114.3 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:LED0603-R-RD_WHITE"
-			(at 113.03 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
-			(at 113.03 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0603"
-			(at 113.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 113.03 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0603W"
-			(at 113.03 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2290"
-			(at 113.03 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b73237d-76f6-4e8e-a27d-c05d2128edf3")
-		)
-		(pin "1"
-			(uuid "ec4cb0e8-74e5-47c9-958a-655555f5acb7")
-		)
-		(instances
-			(project "DrumTime"
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED35")
+					(reference "LED31")
 					(unit 1)
 				)
 			)
@@ -4918,7 +4438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "865429a1-737c-44ae-a5dd-c005c7f4927c")
-		(property "Reference" "LED20"
+		(property "Reference" "LED19"
 			(at 73.152 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +4533,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED20")
+					(reference "LED19")
 					(unit 1)
 				)
 			)
@@ -5031,7 +4551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87ff8e45-ca0d-471b-ac33-9dd98e780bc0")
-		(property "Reference" "LED31"
+		(property "Reference" "LED30"
 			(at 111.252 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +4646,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED31")
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -5144,7 +4664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93a83c84-b7b5-426f-9062-0e33dd194058")
-		(property "Reference" "LED19"
+		(property "Reference" "LED18"
 			(at 73.152 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +4759,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED19")
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -5257,7 +4777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99f426f2-c901-4bc8-9c85-5a7c4503111d")
-		(property "Reference" "LED14"
+		(property "Reference" "LED13"
 			(at 35.052 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,7 +4872,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED14")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -5370,7 +4890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e79e3c0-05b9-4eb6-8db5-13c9efff99f3")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0102"
 			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5430,7 +4950,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "#PWR096")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5448,7 +4968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1bf5086-e4ef-44c5-a378-ecdbdd8c23a4")
-		(property "Reference" "LED18"
+		(property "Reference" "LED17"
 			(at 73.152 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5543,7 +5063,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED18")
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -5561,7 +5081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a97631d8-43da-4381-b7a2-58f0b1aa44e5")
-		(property "Reference" "LED12"
+		(property "Reference" "LED11"
 			(at 35.052 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +5176,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED12")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc8b82f3-fec8-475c-be53-9c929a4fd565")
-		(property "Reference" "LED5"
+		(property "Reference" "LED4"
 			(at 35.052 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5289,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED5")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -5787,7 +5307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd7d2e10-b071-42e2-96f1-ce564cbfea40")
-		(property "Reference" "LED27"
+		(property "Reference" "LED26"
 			(at 73.152 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,7 +5402,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED27")
+					(reference "LED26")
 					(unit 1)
 				)
 			)
@@ -5900,7 +5420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c20c76a3-c2b9-4f5d-8f4c-99028c9a59c9")
-		(property "Reference" "LED23"
+		(property "Reference" "LED22"
 			(at 73.152 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +5515,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED23")
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -6013,7 +5533,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d891c9dd-08c6-4bb5-ab31-2e2159ee2f6d")
-		(property "Reference" "LED8"
+		(property "Reference" "LED7"
 			(at 35.052 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +5628,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED8")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -6126,7 +5646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0a254d3-1674-4eec-b1bf-7d815b242891")
-		(property "Reference" "LED29"
+		(property "Reference" "LED28"
 			(at 73.152 187.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +5741,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED29")
+					(reference "LED28")
 					(unit 1)
 				)
 			)
@@ -6239,7 +5759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5753f8e-862c-41e1-9b07-4137476a09b0")
-		(property "Reference" "LED26"
+		(property "Reference" "LED25"
 			(at 73.152 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,7 +5854,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "LED26")
+					(reference "LED25")
 					(unit 1)
 				)
 			)
