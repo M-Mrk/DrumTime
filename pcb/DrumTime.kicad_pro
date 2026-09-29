@@ -696,7 +696,7 @@
         "uuid": "8a637056-cf4c-4480-be46-24692ba024f5"
       }
     ],
-    "used_designators": "#FLG1-3,J1-7,M1-4,C1-39,D1-12,#PWR1-108,LED1-42,R1-23,USB1,U1-9",
+    "used_designators": "F1-2,U1-9,JP1,USB1,R1-23,LED1-42,#PWR1-108,D1-12,C1-39,M1-4,J1-7,#FLG1-3",
     "variants": []
   },
   "sheets": [
@@ -709,15 +709,15 @@
       "Motor"
     ],
     [
-      "ad5df6ab-3258-4bba-8c2f-d049de697427",
+      "f6ab2283-3e1b-46b5-990a-f0934d3cec45",
       "Motor1"
     ],
     [
-      "3b7c041d-112e-4379-91a6-a42825a4008c",
+      "fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6",
       "Motor2"
     ],
     [
-      "9d1b1d84-7176-45b2-9e9e-c01b8946f292",
+      "7d948c94-a90c-45a8-8159-de776de9a231",
       "Motor3"
     ],
     [
