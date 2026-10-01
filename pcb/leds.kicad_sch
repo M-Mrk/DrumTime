@@ -3265,7 +3265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47aca938-eb71-46f4-8e99-74e4e54a9f5f")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0106"
 			(at 25.4 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3325,7 +3325,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "#PWR0100")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3456,7 +3456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5127c467-7fff-44bf-bb5d-ccba80d65f89")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0107"
 			(at 63.5 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3516,7 +3516,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "#PWR0101")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4890,7 +4890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e79e3c0-05b9-4eb6-8db5-13c9efff99f3")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0108"
 			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4950,7 +4950,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/112ffdb5-0363-4952-a6fb-8cbb62d7b603"
-					(reference "#PWR0102")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)

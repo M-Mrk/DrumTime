@@ -262,6 +262,18 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_mismatch|495300|1422400|396e48a1-2a90-40f1-abaf-e1fb3ef110e0|00000000-0000-0000-0000-000000000000|||",
+        "adjusted for a better layout"
+      ],
+      [
+        "multiple_net_names|1816100|1460500|4d13f13a-09e2-45a0-91c2-0cc9c1e86ba2|5b837ecf-3ca6-4a5a-84ed-e4e19b817fab|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
+        ""
+      ],
+      [
+        "multiple_net_names|3492500|1905000|7168da22-6918-4f0b-b651-3795cea2cc8b|2d61f54f-db6d-4df4-9e9d-00c5d62b8620|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
+        ""
+      ],
+      [
         "multiple_net_names|3492500|1905000|844c1fc8-5a09-468a-96f8-eb3f0c7a9cb5|2d61f54f-db6d-4df4-9e9d-00c5d62b8620|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
         "AD is used to symbolize the importance of the cap placement between the pins AD and VCC"
       ]
@@ -591,19 +603,19 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -615,7 +627,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -645,7 +657,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -696,7 +708,7 @@
         "uuid": "8a637056-cf4c-4480-be46-24692ba024f5"
       }
     ],
-    "used_designators": "F1-2,U1-9,JP1,USB1,R1-23,LED1-42,#PWR1-108,D1-12,C1-39,M1-4,J1-7,#FLG1-3",
+    "used_designators": "CN1-4,F1-2,U1-12,JP1,USB1,R1-32,LED1-42,#PWR1-118,D1-12,C1-48,M1-7,J1-9,#FLG1-4",
     "variants": []
   },
   "sheets": [
