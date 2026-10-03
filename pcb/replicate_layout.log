@@ -1,0 +1,58 @@
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 473:Plugin executed on: 'linux'
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 474:Plugin executed with python version: '3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]'
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:KiCad build version: 10.0.6
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:Plugin version: 5.0.1
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 477:Frame repr: <wx._core.Frame object at 0x7a0b67e20dd0>
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Preparing replicator with C19 as a reference
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:getting a list of all footprints on board
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 549:source anchor footprint is 'C19'
+Located on: ['/Motor/']
+With filenames: ['motor.kicad_sch']
+With sheet_id:['/Motor/']
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 556:Corresponding footprints are 
+[('C33', ['/Motor2/']), ('C40', ['/Motor3/']), ('C19', ['/Motor/']), ('C26', ['/Motor1/'])]
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 568:Showing dialog
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 477:constructing a list of sheets suitable for replication on level:'/Motor/', file:'motor.kicad_sch'
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 489:possible dst fps are: ['C33', 'C40', 'C19', 'C26']
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 507:dst fps are: ['C33', 'C40', 'C19', 'C26']
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 519:suitable sheets are:[['/Motor1/'], ['/Motor2/'], ['/Motor3/']]
+10-03 14:10:35 root 156:possible dst fp: ['C33', 'C40', 'C19', 'C26']
+10-03 14:10:35 root 160:src nets: ['/Motor/A+', '/Motor/A-', '/Motor/B+', '/Motor/B-', 'Net-(U6-BRA)', 'GND', '+3V3', '+5V', 'Net-(U6-CPO)', 'Net-(U6-CPI)', '/m0_hall', '', '/m_enn', 'Net-(U6-VCP)', 'unconnected-(U6-SPREAD-Pad7)', 'Net-(U6-5VOUT)', 'unconnected-(U6-DIAG-Pad11)', 'unconnected-(U6-INDEX-Pad12)', '/m_uart', '/m0_step', '/m0_dir', 'unconnected-(U6-STDBY-Pad20)', 'Net-(U6-BRB)']
+10-03 14:10:35 root 161:norm nets: ['', '', '', '', '', '', '+3V3', '+5V', 'A+', 'A-', 'B+', 'B-', 'GND', 'Net-(-5VOUT)', 'Net-(-BRA)', 'Net-(-BRB)', 'Net-(-CPI)', 'Net-(-CPO)', 'Net-(-VCP)', 'unconnected-(U6-DIAG-Pad11)', 'unconnected-(U6-INDEX-Pad12)', 'unconnected-(U6-SPREAD-Pad7)', 'unconnected-(U6-STDBY-Pad20)']
+10-03 14:10:35 root 169:dst fp: C33, sheet path: /Motor1/, fp path: /Motor2/
+10-03 14:10:35 root 169:dst fp: C40, sheet path: /Motor1/, fp path: /Motor3/
+10-03 14:10:35 root 169:dst fp: C19, sheet path: /Motor1/, fp path: /Motor/
+10-03 14:10:35 root 169:dst fp: C26, sheet path: /Motor1/, fp path: /Motor1/
+10-03 14:10:35 root 169:dst fp: C33, sheet path: /Motor2/, fp path: /Motor2/
+10-03 14:10:35 root 169:dst fp: C40, sheet path: /Motor2/, fp path: /Motor3/
+10-03 14:10:35 root 169:dst fp: C19, sheet path: /Motor2/, fp path: /Motor/
+10-03 14:10:35 root 169:dst fp: C26, sheet path: /Motor2/, fp path: /Motor1/
+10-03 14:10:35 root 169:dst fp: C33, sheet path: /Motor3/, fp path: /Motor2/
+10-03 14:10:35 root 169:dst fp: C40, sheet path: /Motor3/, fp path: /Motor3/
+10-03 14:10:35 root 169:dst fp: C19, sheet path: /Motor3/, fp path: /Motor/
+10-03 14:10:35 root 169:dst fp: C26, sheet path: /Motor3/, fp path: /Motor1/
+10-03 14:10:35 root 193:list of found dst fps: ['C26', 'C33', 'C40']
+10-03 14:10:35 root 196:list of sheets for listbox: ['/Motor1/ (C26)', '/Motor2/ (C33)', '/Motor3/ (C40)']
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1579:Level selected: ['/Motor/']
+10-03 14:10:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 584:Fatal error when making an instance of replicator
+Traceback (most recent call last):
+  File "/home/matze/.local/share/kicad/10.0/3rdparty//plugins/com_github_MitjaNemec_ReplicateLayout/action_replicate_layout.py", line 570, in Run
+    dlg = ReplicateLayoutDialog(self.frame, replicator, src_anchor_fp_reference, logger)
+  File "/home/matze/.local/share/kicad/10.0/3rdparty//plugins/com_github_MitjaNemec_ReplicateLayout/action_replicate_layout.py", line 97, in __init__
+    self.level_changed(None)
+    ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/matze/.local/share/kicad/10.0/3rdparty//plugins/com_github_MitjaNemec_ReplicateLayout/action_replicate_layout.py", line 228, in level_changed
+    (self.hl_fps, self.hl_items) = self.replicator.highlight_set_level(self.src_anchor_fp.sheet_id[0:self.list_levels.GetSelection() + 1],
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                                       settings)
+                                                                       ^^^^^^^^^
+  File "/home/matze/.local/share/kicad/10.0/3rdparty//plugins/com_github_MitjaNemec_ReplicateLayout/replicate_layout.py", line 1587, in highlight_set_level
+    self.fp_set_highlight(fp.fp)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/matze/.local/share/kicad/10.0/3rdparty//plugins/com_github_MitjaNemec_ReplicateLayout/replicate_layout.py", line 1632, in fp_set_highlight
+    for item in drawings:
+                ^^^^^^^^
+  File "/usr/lib/python3.14/site-packages/pcbnew.py", line 13555, in __iter__
+    item = it.next()  # throws StopIteration when iterator reached the end.
+           ^^^^^^^
+AttributeError: 'SwigPyIterator' object has no attribute 'next'
