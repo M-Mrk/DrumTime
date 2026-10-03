@@ -1450,6 +1450,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:BAT60B_C7502695"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5968,6 +6187,18 @@
 		(uuid "315cd8e4-ac83-4259-aea2-35f434e66bbc")
 	)
 	(rectangle
+		(start 127 13.97)
+		(end 226.06 79.375)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "61439259-ef16-45f1-a04b-0bf1d9106e45")
+	)
+	(rectangle
 		(start 12.7 80.518)
 		(end 88.9 121.158)
 		(stroke
@@ -5978,6 +6209,18 @@
 			(type none)
 		)
 		(uuid "af3b3f2e-471e-4a0c-93ba-b732fcbc5abc")
+	)
+	(rectangle
+		(start 190.5 17.78)
+		(end 220.345 59.055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d06221fe-4aaf-4f84-b77f-0b8afa1ced6d")
 	)
 	(rectangle
 		(start 257.175 245.745)
@@ -6067,6 +6310,30 @@
 		)
 		(uuid "36502125-1818-4369-ba2f-e1e9d6d89017")
 	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 205.232 20.574 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4a3d1a3b-1338-478b-937f-2a3387b7e9aa")
+	)
+	(text "Mounting"
+		(exclude_from_sim no)
+		(at 160.02 17.272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "554ff6a7-a105-4ed5-be8d-d1ed210580c3")
+	)
 	(text "Seconds Indicator"
 		(exclude_from_sim no)
 		(at 365.76 133.604 0)
@@ -6131,6 +6398,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01cd94c2-4188-46d5-bed7-e8526b91f215")
+	)
+	(junction
+		(at 162.56 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "020d3f89-2cb4-4b2c-93d8-65d8bd19d6f1")
 	)
 	(junction
 		(at 318.77 194.31)
@@ -6211,6 +6484,12 @@
 		(uuid "bee01527-8763-487c-8454-e8c4db816812")
 	)
 	(junction
+		(at 147.32 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06495d8-5de8-4f6a-a5a7-872df609d5f1")
+	)
+	(junction
 		(at 340.36 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6239,12 +6518,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9b351fe-428a-47c0-a5bd-89344f2c6511")
-	)
-	(junction
-		(at 147.32 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef29b63d-732f-4166-9fbe-964bbbaff57d")
 	)
 	(junction
 		(at 29.21 97.79)
@@ -6411,6 +6684,16 @@
 			(type default)
 		)
 		(uuid "09553dd1-45ba-44d2-9dca-d5903e1e227f")
+	)
+	(wire
+		(pts
+			(xy 250.19 127) (xy 236.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ce4883-92ef-45e0-8873-8e48e7c19eaf")
 	)
 	(wire
 		(pts
@@ -6581,16 +6864,6 @@
 			(type default)
 		)
 		(uuid "1b55f98b-31cf-4e9b-be7c-8684653ad2da")
-	)
-	(wire
-		(pts
-			(xy 147.32 125.73) (xy 191.77 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8c6986-02fe-4a02-83dd-d4fd770be130")
 	)
 	(wire
 		(pts
@@ -7094,6 +7367,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 46.99) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b38af1-7c15-4071-9769-f775ed9dc7e8")
+	)
+	(wire
+		(pts
 			(xy 124.46 46.99) (xy 115.57 46.99)
 		)
 		(stroke
@@ -7174,6 +7457,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 129.54) (xy 236.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625c3f61-c4ce-4291-a17e-447f9e29f22b")
+	)
+	(wire
+		(pts
 			(xy 386.08 166.37) (xy 377.19 166.37)
 		)
 		(stroke
@@ -7204,7 +7497,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 251.46 129.54)
+			(xy 248.92 132.08) (xy 259.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7264,6 +7557,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 132.08) (xy 248.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac5facb-d5ef-45c9-ade3-3ad04f169173")
+	)
+	(wire
+		(pts
 			(xy 208.28 163.83) (xy 208.28 173.99)
 		)
 		(stroke
@@ -7294,6 +7597,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 46.99) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8a0105-b951-4ff8-a36f-d8692bc7a83f")
+	)
+	(wire
+		(pts
 			(xy 189.23 123.19) (xy 191.77 123.19)
 		)
 		(stroke
@@ -7311,16 +7624,6 @@
 			(type default)
 		)
 		(uuid "6cfb5528-b592-4c27-b266-4bc201a1a30e")
-	)
-	(wire
-		(pts
-			(xy 250.19 132.08) (xy 251.46 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d54ac52-faf4-4569-b2af-ec398595572f")
 	)
 	(wire
 		(pts
@@ -7354,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 124.46) (xy 162.56 127)
+			(xy 162.56 124.46) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7411,16 +7714,6 @@
 			(type default)
 		)
 		(uuid "7b53e7a0-2af3-408f-81c1-2421e958114f")
-	)
-	(wire
-		(pts
-			(xy 250.19 134.62) (xy 250.19 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bfbe007-3023-40ec-a993-056d9b80b735")
 	)
 	(wire
 		(pts
@@ -7504,6 +7797,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 125.73) (xy 162.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870755e6-3a20-4e27-93be-b9ca7e3dc7bd")
+	)
+	(wire
+		(pts
 			(xy 250.19 154.94) (xy 250.19 157.48)
 		)
 		(stroke
@@ -7571,6 +7874,16 @@
 			(type default)
 		)
 		(uuid "8bd79035-6c17-45e0-ba5a-ad823231d5a3")
+	)
+	(wire
+		(pts
+			(xy 255.27 127) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce9cd93-a618-445d-8de7-320a7c5314d1")
 	)
 	(wire
 		(pts
@@ -7794,6 +8107,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 30.48) (xy 165.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f45158c-0f82-4bce-b40f-f3f848b8ab98")
+	)
+	(wire
+		(pts
 			(xy 341.63 93.98) (xy 355.6 93.98)
 		)
 		(stroke
@@ -7874,6 +8197,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 30.48) (xy 144.78 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86caba7-be34-49ea-b794-4243fe08ab3b")
+	)
+	(wire
+		(pts
 			(xy 26.67 140.97) (xy 26.67 142.24)
 		)
 		(stroke
@@ -7911,6 +8244,16 @@
 			(type default)
 		)
 		(uuid "aa39bb48-ca4e-4c86-829c-5480d9692853")
+	)
+	(wire
+		(pts
+			(xy 162.56 125.73) (xy 191.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa459acf-59e5-4b03-8b38-b1fc95505df6")
 	)
 	(wire
 		(pts
@@ -8014,6 +8357,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 125.73) (xy 162.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23a3f03-2182-4f7c-81ee-bcaf66d92dd7")
+	)
+	(wire
+		(pts
 			(xy 341.63 116.84) (xy 355.6 116.84)
 		)
 		(stroke
@@ -8101,6 +8454,16 @@
 			(type default)
 		)
 		(uuid "bf0d1c91-dc74-4588-b59c-a03292c83537")
+	)
+	(wire
+		(pts
+			(xy 250.19 129.54) (xy 250.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0732332-9849-42a6-810d-748d9e5ab45f")
 	)
 	(wire
 		(pts
@@ -8264,6 +8627,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 48.26) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3c28af-612b-4278-9892-7d436a1dbd70")
+	)
+	(wire
+		(pts
 			(xy 330.2 121.92) (xy 330.2 123.19)
 		)
 		(stroke
@@ -8344,7 +8717,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 127) (xy 251.46 127)
+			(xy 250.19 129.54) (xy 259.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8534,6 +8907,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 31.75) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0d8ea0-5831-4ad1-9cdf-199b6a19bd25")
+	)
+	(wire
+		(pts
 			(xy 26.67 49.53) (xy 24.13 49.53)
 		)
 		(stroke
@@ -8671,6 +9054,16 @@
 			(type default)
 		)
 		(uuid "ff0e6284-371f-47f3-a2e5-5e8d1f8cc582")
+	)
+	(label "SCL"
+		(at 317.5 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07d36d7d-f61c-41fc-9d75-9e2ae4133fec")
 	)
 	(label "m_enn"
 		(at 341.63 96.52 0)
@@ -9002,16 +9395,6 @@
 		)
 		(uuid "826c208d-5c7b-469b-b0a3-1191c23f4b43")
 	)
-	(label "SDA"
-		(at 317.5 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8630de5a-06d3-4c0d-a040-6b32a1b812df")
-	)
 	(label "m2_step"
 		(at 181.61 148.59 0)
 		(effects
@@ -9071,16 +9454,6 @@
 			(justify right bottom)
 		)
 		(uuid "9ef07348-4d27-4742-9a66-5846d800c4ce")
-	)
-	(label "SCL"
-		(at 317.5 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a11252bb-422b-4097-b48e-be0e55b20d80")
 	)
 	(label "AD"
 		(at 335.28 158.75 0)
@@ -9362,6 +9735,16 @@
 		)
 		(uuid "ef813db4-55c0-4569-8a9f-5e550fbf0896")
 	)
+	(label "SDA"
+		(at 317.5 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0377376-e182-4987-8770-ec8163ccaeb7")
+	)
 	(label "SCL"
 		(at 345.44 177.8 0)
 		(effects
@@ -9579,7 +9962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ad67d4-26c2-42fc-9dc9-a201edf369fc")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 34.29 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -9639,7 +10022,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9656,7 +10039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06849a30-f988-4231-a539-f30c58cabb4d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR044"
 			(at 238.76 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9717,7 +10100,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR032")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9847,7 +10230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09cc2b97-7a79-476f-8cdb-a5733b7f2e59")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9907,7 +10290,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9925,7 +10308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aa42257-cf11-49bb-a1e6-73cc22fa4431")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR07"
 			(at 17.78 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9986,7 +10369,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0114")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10004,7 +10387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2a3f95-801c-4dfb-b522-db1353fcea82")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR063"
 			(at 356.87 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10065,7 +10448,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR051")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10208,7 +10591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0da80981-b332-4e49-b5df-d92a0f85e066")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 147.32 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10268,7 +10651,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10286,7 +10669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0db5ad2a-4fe4-4fa2-8e07-54f2c1e82a4f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR061"
 			(at 346.71 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10347,7 +10730,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR049")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10365,7 +10748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de4e690-215e-4d8c-a3f4-e8eb70f2e225")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 69.85 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10425,7 +10808,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10536,7 +10919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12c12eba-63dd-4afb-a750-aae2bf25983e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 19.05 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -10596,7 +10979,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10614,7 +10997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13f3b84d-ad38-4591-b3d6-299f0de9dada")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 257.81 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10678,7 +11061,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10696,7 +11079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171891f7-4b61-4afb-9030-ca5b6b3d70f8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR024"
 			(at 82.55 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10756,7 +11139,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR018")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10774,7 +11157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1db7720a-9c2f-4b5b-bf89-fc876401315b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR050"
 			(at 306.07 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10834,7 +11217,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR041")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10852,7 +11235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e3ee4bb-a695-4d8b-a8d7-b310476a80cf")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR062"
 			(at 346.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10913,7 +11296,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR050")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10930,7 +11313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21c82e16-52ac-4d53-9344-3984afb21c08")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 48.26 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10990,7 +11373,85 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR09")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237b0f55-5466-47ec-8ae9-e14875023aed")
+		(property "Reference" "#PWR036"
+			(at 165.1 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "137bfff2-1c30-44ee-8c83-9ac3cd7de93f")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11007,7 +11468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26311fac-2cdc-466a-9908-694b277ce942")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR015"
 			(at 48.26 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11067,7 +11528,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0110")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11178,7 +11639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28c9403a-eb50-4ab0-af43-f0695e42abc6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR038"
 			(at 181.61 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11238,7 +11699,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR028")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11349,7 +11810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f815db9-d7a2-471b-b3b8-0f3350b06826")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR040"
 			(at 193.04 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11410,7 +11871,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR030")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31966f87-3d1e-47f5-8084-d8af9944a207")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR058"
 			(at 346.71 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11950,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR046")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11507,7 +11968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e41078-3d03-42d2-bde6-fd58bac23aee")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 142.24 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +12028,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11585,7 +12046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3699f706-713e-4db0-a732-bf9b8907b691")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 26.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11645,7 +12106,165 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR05")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3802db70-eee3-4708-80e9-ee627b3c9283")
+		(property "Reference" "H2"
+			(at 147.32 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2de8a3bd-cc03-4eff-b463-58ea401dafb6")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b22164-a163-4e0a-a8b5-9ea6ff5596c0")
+		(property "Reference" "H3"
+			(at 167.64 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 167.64 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 165.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fa66249-c113-4d25-bcf5-38772904201c")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11901,7 +12520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac5d272-e0b0-4088-a885-9b8358b15397")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR037"
 			(at 177.8 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11961,7 +12580,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR027")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11979,7 +12598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b404700-ea72-4afa-b45d-9a876d4ed798")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 26.67 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -12039,7 +12658,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -12303,6 +12922,163 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 203.2 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43627498-6c33-4f5d-a8d7-346ea7502cea")
+		(property "Reference" "#PWR042"
+			(at 203.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e99e7cf3-4245-4012-b82f-154fb3a48c40")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 203.2 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45b20014-ae8e-4a19-9dec-0bbfbf3189d9")
+		(property "Reference" "H5"
+			(at 205.74 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 203.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 203.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1103f74-8309-4ec6-ac80-667cbd8f6f04")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 69.85 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -12313,7 +13089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a597f7e-7b1a-41cd-9d21-b8104eb4a027")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 69.85 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12373,7 +13149,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12634,7 +13410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50fa3d6c-a307-4f57-8985-d44eca50005f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 50.8 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12694,7 +13470,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12713,7 +13489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c0050b-afff-4df3-ae7f-43c6d69e1f94")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR056"
 			(at 354.33 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12774,7 +13550,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR044")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12792,7 +13568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ce4e3d3-1aaf-41d0-98f8-27573e47cb8b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 162.56 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12852,7 +13628,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12871,7 +13647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e7d3acd-70f4-4b60-b336-a85626f0f151")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR055"
 			(at 350.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -12931,7 +13707,85 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR043")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e8134fc-d554-46fd-bdbb-70982ee50d65")
+		(property "Reference" "#PWR029"
+			(at 144.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "218202a9-c82b-46d6-87f6-6f3b98797a7f")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12950,7 +13804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e81ae76-18c3-4e84-b91f-15e074171cad")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR057"
 			(at 351.79 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -13010,7 +13864,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR045")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13028,7 +13882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64709e40-2af0-4421-a4fd-ae73a7da4921")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 19.05 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -13088,7 +13942,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13106,7 +13960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e85fdf-4b11-4dbf-b260-0edcd26b8d9d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR041"
 			(at 198.12 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13166,7 +14020,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13245,6 +14099,84 @@
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bbab76b-6de1-43cc-be1e-25fd3ff7b05d")
+		(property "Reference" "#PWR035"
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a741be6c-f2ba-4e83-ae18-9a15565377c6")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13338,6 +14270,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 203.2 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70150ade-46e5-45ea-bfd4-b57dc8e2c438")
+		(property "Reference" "H6"
+			(at 205.74 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 203.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 203.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00e6ffe4-d350-47e1-a9db-a9d262ee8fe1")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 59.69 0)
 		(unit 1)
@@ -13349,7 +14360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70d6c0b9-f360-4b83-b884-863c40247c9f")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR011"
 			(at 39.37 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13409,7 +14420,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0115")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13427,7 +14438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7175cfa0-d026-46c6-822f-36e3964dd001")
-		(property "Reference" "R27"
+		(property "Reference" "R9"
 			(at 318.77 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13500,7 +14511,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "R27")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13518,7 +14529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724c0153-73e3-4a4d-ae29-21895cddb380")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR059"
 			(at 346.71 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13579,7 +14590,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR047")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13826,7 +14837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7884678a-c316-4fb7-bac8-655bd0a6f151")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR05"
 			(at 27.94 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13886,7 +14897,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0111")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13904,7 +14915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "793b02e0-8e4b-45a0-bf1e-ebce3ba3ae40")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 332.74 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13979,7 +14990,83 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "R9")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 165.1 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79e76987-08eb-415d-aece-a1da0faeaa51")
+		(property "Reference" "FID2"
+			(at 167.64 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 167.64 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -13997,7 +15084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a1945ee-38af-4e29-bcd9-a35447be5f2a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 138.43 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14057,7 +15144,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14076,7 +15163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2efc79-87f5-4635-af18-641b6ba86065")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR052"
 			(at 318.77 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -14136,7 +15223,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR039")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -14154,7 +15241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d9dcfed-98b0-4c3a-aba9-f1125a83c8a7")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR065"
 			(at 356.87 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14215,7 +15302,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR053")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -14233,7 +15320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3ff09b-e07f-4d57-a919-56af76896745")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR016"
 			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14294,7 +15381,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0112")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14312,7 +15399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801b30b5-efb6-4831-9ca1-975a00074806")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 71.12 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -14372,7 +15459,162 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#FLG04")
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 144.78 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "806edc12-1e30-46e6-8d5c-4ac29811369b")
+		(property "Reference" "FID1"
+			(at 147.32 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 147.32 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_Cross_1.5mm_Mask2mm"
+			(at 144.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 144.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8274a80c-189a-4d41-ade6-0baffc00b263")
+		(property "Reference" "H1"
+			(at 147.32 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 144.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "509c3cb4-c5ae-4fdd-927a-c8d6596cd39e")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14389,7 +15631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86764ab1-9c1f-4b21-aef6-ca140b865658")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR046"
 			(at 256.54 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14450,7 +15692,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR034")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14615,6 +15857,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87aa3468-afc1-4ef8-b5d3-726c28696095")
+		(property "Reference" "#PWR030"
+			(at 144.78 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "000351eb-0765-405c-947d-4809068eb097")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 318.77 193.04 0)
 		(mirror y)
@@ -14627,7 +15947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8845078a-770c-43f1-af64-71d91a277026")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR051"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14687,7 +16007,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR038")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14705,7 +16025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca705de-bd1b-4738-bd77-4f9c2d09e56d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14765,7 +16085,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15055,7 +16375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f9c1bb-4a6e-4bea-8250-3c10e5f29cac")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR034"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15115,7 +16435,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15133,7 +16453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93a378f9-98ee-49f7-99b7-9af436bfe5ac")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 344.17 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15208,7 +16528,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15225,7 +16545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94d3b9e9-5418-4d1e-ae9a-e5975c3d05c6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR049"
 			(at 269.24 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -15285,7 +16605,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR037")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -15303,7 +16623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba6f412-d086-4a5d-b81d-679f54d3ff14")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 142.24 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15363,7 +16683,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15380,7 +16700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c41df57-6892-4262-a5c0-51a7d093ece8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR023"
 			(at 81.28 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15440,7 +16760,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR017")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15457,7 +16777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e386e81-382b-4bcb-8054-65cc7cc010e0")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR06"
 			(at 27.94 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15517,7 +16837,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0109")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15535,7 +16855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a062a20e-a469-4bba-af95-cb776c4474b7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR064"
 			(at 356.87 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15596,36 +16916,26 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR052")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 250.19 134.62 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a062ed84-89a1-45bb-b246-989dc8a6d0e6")
-		(property "Reference" "#PWR035"
-			(at 250.19 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.968 136.398 0)
+		(fields_autoplaced yes)
+		(uuid "a1474f60-6142-4d14-90e4-87795d0a0278")
+		(property "Reference" "H4"
+			(at 167.64 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15635,8 +16945,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 250.19 134.62 0)
+		(property "Value" "MountingHole"
+			(at 167.64 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 165.1 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15647,7 +16968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 134.62 0)
+			(at 165.1 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15657,8 +16978,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 134.62 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15669,12 +16990,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5658f43-515b-48dd-a5bf-861938e8f468")
+			(uuid "7deacdf1-f450-46ab-9410-7f58b3785247")
 		)
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR035")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -15692,7 +17013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a171a90e-8965-4e12-b7f5-cd6031d095f8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR053"
 			(at 330.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15752,7 +17073,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR040")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15770,7 +17091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a974ef7c-f2b8-4fcc-a028-2482c53f720d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 29.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15830,7 +17151,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16097,6 +17418,84 @@
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad41d006-f439-444c-a96d-630206139505")
+		(property "Reference" "#PWR043"
+			(at 203.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03958b01-683f-4b51-b36a-8658ecbf1f33")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16486,7 +17885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c53fb717-1754-4e13-94d2-cacf48f0e4e7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16546,7 +17945,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16564,7 +17963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9efc7a4-3949-4194-b704-873d16b46ebe")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -16625,92 +18024,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 256.54 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf79abfb-8bfd-4d45-868f-b91e56339a20")
-		(property "Reference" "J2"
-			(at 257.81 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Debug"
-			(at 257.81 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 256.54 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 256.54 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1d59bf1e-d710-4731-8194-6a154b2cd0eb")
-		)
-		(pin "1"
-			(uuid "600a3ef7-99f7-47ec-a879-94fc3bbb732d")
-		)
-		(pin "3"
-			(uuid "ba763bac-de5f-46e7-b212-ad10fcae5892")
-		)
-		(instances
-			(project "DrumTime"
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "J2")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16727,7 +18041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0ed03e3-1258-40a0-b403-3e42331745dd")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 116.84 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16787,7 +18101,92 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR019")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 264.16 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d80103f1-f8ec-463f-a6f1-fd084fb5d40c")
+		(property "Reference" "J3"
+			(at 265.43 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug"
+			(at 265.43 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7afac25-9b50-4465-ba19-d3e2a9cb12a4")
+		)
+		(pin "1"
+			(uuid "b38f3ff8-2e9e-4b61-95eb-19b176dce85a")
+		)
+		(pin "3"
+			(uuid "c0d1bc98-7b2b-4ea9-8d15-78bcbb10cc50")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16805,7 +18204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9754339-8b85-4b05-a271-86ca43e02629")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR022"
 			(at 71.12 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16865,7 +18264,85 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR015")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db7aa9a8-f7e7-4af5-a2fc-65c311c5f564")
+		(property "Reference" "#PWR048"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.8638 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b4b32a4-3cb9-4769-9e7e-727abeebc46e")
+		)
+		(instances
+			(project "DrumTime"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16976,7 +18453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09361ec-f448-4c1b-aed5-d6426d90899b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 57.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17036,7 +18513,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR011")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17054,7 +18531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e54437c7-5ebe-4785-af9b-f553b553873f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR054"
 			(at 341.63 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -17114,7 +18591,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR042")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17132,7 +18609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e639016a-7707-46e1-97fa-b81485c29c8c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR045"
 			(at 242.57 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -17192,7 +18669,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR033")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -17511,7 +18988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef2a4883-e1ad-4d24-aada-9d39c4448877")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR060"
 			(at 356.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17572,7 +19049,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR048")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -17672,7 +19149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f843f970-a2cf-4089-8f2c-f251a96791ad")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR013"
 			(at 58.42 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17733,7 +19210,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR02")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17844,7 +19321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe54cff0-c001-4124-97c5-20d6d1f07dfd")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR04"
 			(at 17.78 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17905,7 +19382,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR0113")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17923,7 +19400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feb42c8b-2ae0-44f4-adba-55b984affee5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 69.85 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17983,7 +19460,7 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5"
-					(reference "#PWR014")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

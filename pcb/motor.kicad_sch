@@ -4109,7 +4109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e9e7f02-8177-4e14-a8cc-52698f9c8f64")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR074"
 			(at 83.82 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4169,19 +4169,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR093")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR054")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR067")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR080")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -4592,7 +4592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44344157-1664-4fb9-bda5-5db6ea41e8ac")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4652,19 +4652,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR097")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR071")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR084")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -4786,7 +4786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69f6e8de-964c-48ae-bbf5-c3c3cb01a27f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR078"
 			(at 101.6 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4846,19 +4846,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR098")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR059")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR072")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR085")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4876,7 +4876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb5461f-d08a-4fe5-949e-fc1135f57259")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR069"
 			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4936,19 +4936,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR099")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR060")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR073")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR086")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -4966,7 +4966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7109be8a-2c93-4051-b603-b840279444c0")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR076"
 			(at 91.44 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5027,19 +5027,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR094")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR055")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR068")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR081")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5056,7 +5056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90a4232a-e65c-430f-8151-55c5b119b123")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR071"
 			(at 72.39 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5116,19 +5116,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR0101")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR062")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR075")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR088")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -5250,7 +5250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94a7c11a-439f-4e97-a7a6-55ea23f3f260")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR075"
 			(at 85.09 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5310,19 +5310,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR0104")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR065")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR078")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR091")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9be7eab7-1111-4d6e-867d-1c0bd974844a")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR073"
 			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5399,19 +5399,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR0103")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR064")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR077")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR090")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -5429,7 +5429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b2de2e-c457-436e-affe-c172897207d5")
-		(property "Reference" "M4"
+		(property "Reference" "M1"
 			(at 165.1 63.919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,19 +5499,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "M7")
-					(unit 1)
-				)
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
 					(reference "M4")
 					(unit 1)
 				)
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
+					(reference "M1")
+					(unit 1)
+				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "M5")
+					(reference "M2")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "M6")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac7451f-d004-4bbb-9031-3e9b4cb2d081")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR072"
 			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5589,19 +5589,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR0102")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR063")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR076")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR089")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -5723,7 +5723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b69a9ae2-a460-4be2-bbd7-727079b75996")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR067"
 			(at 33.02 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5783,19 +5783,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR096")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR057")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR070")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR083")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5813,7 +5813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b97c301d-8a28-445b-9164-c19647e5f1a0")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR077"
 			(at 88.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5873,19 +5873,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR0105")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR066")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR079")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR092")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -6244,7 +6244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e743a3ce-5572-4845-b886-9b6f41b05abd")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR066"
 			(at 25.4 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6305,19 +6305,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR095")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR056")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR069")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR082")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6335,7 +6335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee99d790-97a9-4fc2-b2fb-9825674cb0c5")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 104.14 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,19 +6410,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "R23")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
 					(reference "R15")
 					(unit 1)
 				)
-				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
 					(reference "R19")
+					(unit 1)
+				)
+				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb68a75a-1b8b-4026-854e-a5cac2b7e753")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR070"
 			(at 49.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6629,19 +6629,19 @@
 		(instances
 			(project "DrumTime"
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/7d948c94-a90c-45a8-8159-de776de9a231"
-					(reference "#PWR0100")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/995571ae-de2c-4abc-a29f-3a8809f7c92a"
-					(reference "#PWR061")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/f6ab2283-3e1b-46b5-990a-f0934d3cec45"
-					(reference "#PWR074")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/8a637056-cf4c-4480-be46-24692ba024f5/fa8ea9d1-cf80-4e21-b3f6-eebc0f6c8ad6"
-					(reference "#PWR087")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
