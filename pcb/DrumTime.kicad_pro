@@ -758,7 +758,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../cad/pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
