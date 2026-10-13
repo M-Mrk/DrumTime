@@ -6,7 +6,7 @@
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 
-constexpr static const char* TAG = "LEDs";
+constexpr static const char* TAG = "LEDs/wrappers";
 
 constexpr static const uint32_t I2C_FREQ_HZ = 100000;  // 100kHz
 constexpr static const int I2C_TIMEOUT = pdMS_TO_TICKS(50);
@@ -122,11 +122,6 @@ void LedController::setControlAll(CurrentScale current_scale, bool state) {
                           write_buffer.size(), I2C_TIMEOUT));
 }
 
-void LedController::setupDefaultSettings() {
-  this->reset();
-  this->setControlAll(CurrentScale::QUARTER, false);
-}
-
 void LedController::setChannelLevel(uint8_t channel, uint8_t level) {
   if (channel > NUM_CHANNELS - 1) {
     channel = NUM_CHANNELS - 1;
@@ -153,11 +148,4 @@ void LedController::setChannelLevelAll(uint8_t level) {
   ESP_ERROR_CHECK_WITHOUT_ABORT(
       i2c_master_transmit(this->i2c_dev_handle, write_buffer.data(),
                           write_buffer.size(), I2C_TIMEOUT));
-}
-
-LedController::LedController(uint16_t address, gpio_num_t scl_pin,
-                             gpio_num_t sda_pin)
-    : address(address), scl_pin(scl_pin), sda_pin(sda_pin) {
-  this->setupI2C(address, scl_pin, sda_pin);
-  this->setupDefaultSettings();
 }

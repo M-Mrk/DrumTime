@@ -14,4 +14,5 @@ constexpr uint16_t kLedI2cAddress = 0x40;
 
 extern "C" void app_main(void) {
   static LedController leds{kLedI2cAddress, pins::kLedScl, pins::kLedSda};
+  leds.setRGBIndicatior(0, 205, 80);
 }

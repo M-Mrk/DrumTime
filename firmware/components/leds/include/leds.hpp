@@ -33,6 +33,6 @@ class LedController {
 
  public:
   LedController(uint16_t address, gpio_num_t scl_pin, gpio_num_t sda_pin);
-  void setRGBIndicatior(uint8_t r, uint8_t g, uint8_t b);
+  void setRGBIndicatior(uint8_t red, uint8_t green, uint8_t blue);
   void setLightBarLevel(uint8_t progress);
 };
