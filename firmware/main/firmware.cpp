@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <leds.hpp>
 
 #include "driver/gpio.h"
