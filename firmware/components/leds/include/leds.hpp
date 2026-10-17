@@ -13,9 +13,6 @@ enum class CurrentScale : uint8_t {
 
 class LedController {
  private:
-  uint16_t address;
-  gpio_num_t scl_pin;
-  gpio_num_t sda_pin;
   i2c_master_bus_handle_t i2c_bus_handle;
   i2c_master_dev_handle_t i2c_dev_handle;
 
