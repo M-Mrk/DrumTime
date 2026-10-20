@@ -11,9 +11,9 @@ class TmcBus {
   SemaphoreHandle_t mutex = xSemaphoreCreateMutex();
   uart_port_t uart_num;
 
-  void set_crc(uint8_t* datagram, size_t datagram_size);
-  void setup_uart(gpio_num_t rx_pin, gpio_num_t tx_pin);
-  esp_err_t send_and_consume_echo(uint8_t* data, size_t data_size);
+  void setCrc(uint8_t* datagram, size_t datagram_size);
+  void setupUart(gpio_num_t rx_pin, gpio_num_t tx_pin);
+  esp_err_t sendAndConsumeEcho(uint8_t* data, size_t data_size);
 
  public:
   TmcBus(uart_port_t uart_num, gpio_num_t rx_pin, gpio_num_t tx_pin);

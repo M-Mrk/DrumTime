@@ -41,7 +41,7 @@ class MutexGuard {
   MutexGuard& operator=(const MutexGuard&) = delete;
 };
 
-void TmcBus::setup_uart(gpio_num_t rx_pin, gpio_num_t tx_pin) {
+void TmcBus::setupUart(gpio_num_t rx_pin, gpio_num_t tx_pin) {
   uart_config_t uart_conf = {};
   uart_conf.baud_rate = 115200;
   uart_conf.data_bits = UART_DATA_8_BITS;
@@ -62,10 +62,10 @@ void TmcBus::setup_uart(gpio_num_t rx_pin, gpio_num_t tx_pin) {
 TmcBus::TmcBus(uart_port_t uart_num, gpio_num_t rx_pin, gpio_num_t tx_pin)
     : uart_num(uart_num) {
   ESP_LOGI(TAG, "Setting up TmcBus");
-  this->setup_uart(rx_pin, tx_pin);
+  this->setupUart(rx_pin, tx_pin);
 }
 
-void TmcBus::set_crc(uint8_t* datagram, size_t datagram_size) {
+void TmcBus::setCrc(uint8_t* datagram, size_t datagram_size) {
   // Taken from tmc2209 datasheet and slightly adjusted
   int i = 0;
   int j = 0;
@@ -94,7 +94,7 @@ constexpr const uint8_t SYNC_NIBBLE = 0b00000101;
 constexpr const int MAX_ECHO_TIMEOUT = pdMS_TO_TICKS(50);
 
 // Sends data, awaits echo and checks integrity
-esp_err_t TmcBus::send_and_consume_echo(uint8_t* data, size_t data_size) {
+esp_err_t TmcBus::sendAndConsumeEcho(uint8_t* data, size_t data_size) {
   uart_flush_input(uart_num);
   if (uart_write_bytes(uart_num, data, data_size) !=
       static_cast<int>(data_size)) {
@@ -132,11 +132,11 @@ esp_err_t TmcBus::write(uint8_t node_addr, uint8_t register_addr,
     buffer_index += 1;
   }
 
-  set_crc(write_buffer.data(), write_buffer.size());
+  setCrc(write_buffer.data(), write_buffer.size());
 
   MutexGuard lock(mutex);
   ESP_RETURN_ON_ERROR(lock.check(), TAG, "mutex");
-  return send_and_consume_echo(write_buffer.data(), write_buffer.size());
+  return sendAndConsumeEcho(write_buffer.data(), write_buffer.size());
 }
 
 constexpr const int MAX_RESPONSE_TIMEOUT = pdMS_TO_TICKS(50);
@@ -151,13 +151,13 @@ esp_err_t TmcBus::read(uint8_t node_addr, uint8_t register_addr,
   // 7 bit register address and bit 7 is 0 for reading
   write_buffer.at(2) = register_addr & 0x7F;
 
-  set_crc(write_buffer.data(), write_buffer.size());
+  setCrc(write_buffer.data(), write_buffer.size());
 
   MutexGuard lock(mutex);
   ESP_RETURN_ON_ERROR(lock.check(), TAG, "mutex");
 
   ESP_RETURN_ON_ERROR(
-      send_and_consume_echo(write_buffer.data(), write_buffer.size()), TAG,
+      sendAndConsumeEcho(write_buffer.data(), write_buffer.size()), TAG,
       "request");
 
   // Read response
@@ -189,7 +189,7 @@ esp_err_t TmcBus::read(uint8_t node_addr, uint8_t register_addr,
 
   // Check if CRC is correct
   uint8_t original_crc = response_buffer.back();
-  set_crc(response_buffer.data(), response_buffer.size());
+  setCrc(response_buffer.data(), response_buffer.size());
   if (original_crc != response_buffer.back()) {
     ESP_LOGE(TAG,
              "Response is corrupted, crc does not align with rest of message");
