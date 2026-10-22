@@ -30,7 +30,7 @@ class Tmc {
   Tmc(TmcBus& bus, uint8_t address, gpio_num_t step, gpio_num_t dir);
   esp_err_t init();
 
-  esp_err_t setGconf(TmcGconf_t gconf);
+  esp_err_t setGconf(Gconf_t gconf);
   esp_err_t setNodeConf(uint8_t delay);
   esp_err_t setIHoldIRun(IHoldIRun_t conf);
   esp_err_t setChopConf(ChopConf_t conf);

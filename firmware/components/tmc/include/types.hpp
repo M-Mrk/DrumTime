@@ -13,10 +13,10 @@ struct TmcIOIN_t {
   bool step() const { return (raw >> 7) & 1; }
   bool spreadEn() const { return (raw >> 8) & 1; }
   bool dir() const { return (raw >> 9) & 1; }
-  uint8_t version() const { return static_cast<uint8_t>(raw & 0xFF); }
+  uint8_t version() const { return static_cast<uint8_t>(raw >> 24); }
 };
 
-struct TmcGconf_t {
+struct Gconf_t {
   bool i_scale_analog;
   bool internal_rsense;
   bool en_spread_cycle;
@@ -54,9 +54,9 @@ struct IHoldIRun_t {
   operator uint32_t() const {
     uint32_t raw = 0;
 
-    raw |= (static_cast<uint32_t>(i_hold & 0xF1) << 0);
-    raw |= (static_cast<uint32_t>(i_run & 0xF1) << 8);
-    raw |= (static_cast<uint32_t>(i_hold_delay & 0xF1) << 16);
+    raw |= (static_cast<uint32_t>(i_hold & 0x1F) << 0);
+    raw |= (static_cast<uint32_t>(i_run & 0x1F) << 8);
+    raw |= (static_cast<uint32_t>(i_hold_delay & 0x0F) << 16);
 
     return raw;
   }
@@ -89,7 +89,6 @@ struct ChopConf_t {
   operator uint32_t() const {
     uint32_t raw = 0;
 
-    // TODO: adjust bit placement
     if (diss2vs) raw |= (1U << 31);
     if (diss2g) raw |= (1U << 30);
     if (dedge) raw |= (1U << 29);

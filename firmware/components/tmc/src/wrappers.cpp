@@ -43,7 +43,7 @@ esp_err_t Tmc::writeWithIFCounterCheck(uint8_t register_addr, uint32_t value) {
   return ESP_ERR_INVALID_RESPONSE;
 }
 
-esp_err_t Tmc::setGconf(TmcGconf_t gconf) {
+esp_err_t Tmc::setGconf(Gconf_t gconf) {
   return writeWithReadBack(0x00, gconf);
 }
 
