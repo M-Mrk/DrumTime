@@ -1,7 +1,7 @@
 idf_component_register(
     SRCS "firmware.cpp"
     INCLUDE_DIRS "."
-    REQUIRES leds tmc_bus tmc motor_controller
+    REQUIRES leds tmc_bus tmc motor_controller network
 )
 
 target_compile_options(${COMPONENT_LIB} PRIVATE

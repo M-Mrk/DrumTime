@@ -1,13 +1,12 @@
 #include "esp_event.h"
 #include "esp_log.h"
-#include "esp_sntp.h"
 #include "esp_wifi.h"
 #include "freertos/event_groups.h"
 #include "freertos/task.h"
 #include "network.hpp"
 #include "nvs_flash.h"
 
-constexpr const char* TAG = "Networking";
+constexpr const char* TAG = "network/wifi";
 
 constexpr const int ESP_MAXIMUM_RETRY = 12;
 #define WIFI_CONNECTED_BIT BIT0
