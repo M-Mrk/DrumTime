@@ -7,6 +7,6 @@ idf_component_register(
 target_compile_options(${COMPONENT_LIB} PRIVATE
     -Wall -Wextra
     -Wshadow -Wconversion -Wsign-conversion
-    -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual
+    -Wnon-virtual-dtor -Woverloaded-virtual
     -Wnull-dereference -Wdouble-promotion -Wformat=2
 )

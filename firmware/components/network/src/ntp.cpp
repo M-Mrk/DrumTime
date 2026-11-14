@@ -2,7 +2,7 @@
 #include "esp_sntp.h"
 #include "network.hpp"
 
-constexpr const char* TAG = "networking/ntp";
+constexpr const char* TAG = "network/ntp";
 esp_err_t Networking::syncTime() {
   ESP_LOGI(TAG, "Starting NTP synchronisation");
 
