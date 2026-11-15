@@ -1,6 +1,7 @@
 #include <cstdint>
 #include <leds.hpp>
 
+#include "clock.hpp"
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "motor_controller.hpp"
@@ -76,4 +77,6 @@ extern "C" void app_main(void) {
 
   xTaskCreate(time_sync_task, "Time sync task", 2048, &network,
               tskIDLE_PRIORITY + 1, nullptr);
+  ESP_LOGI("firmware", "Finished initalising!");
+  startClock(leds, motors);
 }

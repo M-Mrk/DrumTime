@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "firmware.cpp"
+    SRCS "firmware.cpp" "clock.cpp"
     INCLUDE_DIRS "."
     REQUIRES leds tmc_bus tmc motor_controller network
 )
