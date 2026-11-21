@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 0,
+          "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -78,43 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|102300000|68720012|ea3f9371-e26d-4ba2-a83a-83d502cb3a19|bdebfd34-d9a5-4af2-8e07-271c464fd66f",
-          ""
-        ],
-        [
-          "clearance|102300000|73850000|d0e3da1d-5981-4378-abef-d766d9d5d260|79f88693-0214-4d5f-82be-260b7612a22c",
-          ""
-        ],
-        [
-          "clearance|102739988|72560000|fe736392-ef20-4e12-97b5-da878ad2318a|347a5c84-6b37-4b6f-ad70-4db6f97e1b95",
-          ""
-        ],
-        [
-          "clearance|103590000|69160000|ca43c0bb-ebfb-47aa-ab1e-e08781fcfb55|3d147c57-7736-4bdf-8d4f-21b04248bab2",
-          ""
-        ],
-        [
           "clearance|20000000|24750000|c59eeb20-14f4-409b-9629-2d140bd59205|edd89978-bfa8-4cf0-9700-7bd42173f782",
-          "Fiducial"
-        ],
-        [
-          "clearance|98460012|69160000|c6e63d41-6b69-4401-82df-33e7bc0cb7b9|bb7bcc1d-c428-4ca5-8890-cc123820d9f6",
-          ""
-        ],
-        [
-          "clearance|98460012|72560000|f1e9ab12-6e80-4a63-8ea9-4238e18bd7e2|91efe832-b757-4f38-97ec-6af262d053f8",
-          ""
-        ],
-        [
-          "clearance|98900000|67870000|3fbb630c-248a-4b9a-87e4-e549da2a99e0|d6266ec1-ba35-46b8-929e-dddee6dcb22e",
-          ""
-        ],
-        [
-          "clearance|98900000|73850000|a90aaaff-7d48-446c-b70a-38c168840acb|e18395af-b154-4957-9d84-8c2ce1c89cfc",
-          ""
-        ],
-        [
-          "solder_mask_bridge|20000000|24750000|edd89978-bfa8-4cf0-9700-7bd42173f782|c59eeb20-14f4-409b-9629-2d140bd59205",
           "Fiducial"
         ]
       ],
@@ -219,6 +183,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -230,6 +195,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -241,6 +207,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -253,8 +220,9 @@
       "track_widths": [
         0.0,
         0.125,
+        0.25,
         0.4,
-        1.0
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -477,20 +445,12 @@
   "erc": {
     "erc_exclusions": [
       [
-        "lib_symbol_mismatch|495300|1422400|396e48a1-2a90-40f1-abaf-e1fb3ef110e0|00000000-0000-0000-0000-000000000000|||",
-        "adjusted for a better layout"
-      ],
-      [
         "multiple_net_names|1816100|1460500|4d13f13a-09e2-45a0-91c2-0cc9c1e86ba2|5b837ecf-3ca6-4a5a-84ed-e4e19b817fab|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
         ""
       ],
       [
         "multiple_net_names|3492500|1905000|7168da22-6918-4f0b-b651-3795cea2cc8b|2d61f54f-db6d-4df4-9e9d-00c5d62b8620|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
         ""
-      ],
-      [
-        "multiple_net_names|3492500|1905000|844c1fc8-5a09-468a-96f8-eb3f0c7a9cb5|2d61f54f-db6d-4df4-9e9d-00c5d62b8620|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5|/8a637056-cf4c-4480-be46-24692ba024f5",
-        "AD is used to symbolize the importance of the cap placement between the pins AD and VCC"
       ]
     ],
     "meta": {
@@ -701,6 +661,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -727,7 +688,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -748,15 +709,15 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/matze/Downloads/",
       "specctra_dsn": "",
       "step": "../cad/pcb.step",
       "vrml": ""
@@ -788,7 +749,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -806,7 +767,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -875,7 +836,7 @@
           "show": true
         }
       ],
-      "filter_string": "",
+      "filter_string": "1kR",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -923,7 +884,7 @@
         "uuid": "8a637056-cf4c-4480-be46-24692ba024f5"
       }
     ],
-    "used_designators": "FID1-2,#FLG1-4,C1-48,#PWR1-120,H1-6,LED1-42,JP1,R1-32,M1-7,D1-12,U1-12,F1-2,J1-9,USB1,CN1-4",
+    "used_designators": "#FLG1-4,#PWR1-122,C1-48,CN1-4,D1-12,F1-2,FID1-2,H1-6,J1-9,JP1,LED1-42,M1-7,R1-32,TP1-8,U1-13,USB1",
     "variants": []
   },
   "sheets": [

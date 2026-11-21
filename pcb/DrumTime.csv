@@ -1,0 +1,37 @@
+Qty,Value,Footprint,LCSC Part,Link,Unit Price (?),MOQ,Price (?)
+6,10uF,Capacitor_SMD:C_0805_2012Metric,C15850,https://lcsc.com/product-detail/C15850.html,0.0289,20,0.58
+20,100nF,Capacitor_SMD:C_0603_1608Metric,C14663,https://lcsc.com/product-detail/C14663.html,0.0052,100,0.52
+3,1uF,Capacitor_SMD:C_0603_1608Metric,C15849,https://lcsc.com/product-detail/C15849.html,0.0089,50,0.45
+5,22nF,Capacitor_SMD:C_0603_1608Metric,C21122,https://lcsc.com/product-detail/C21122.html,0.0052,50,0.26
+5,100uF,lcsc:CAP-SMD_BD6.3-L6.6-W6.6-FD,C320569,https://lcsc.com/product-detail/C320569.html,0.1719,5,0.86
+1,22uF,Capacitor_SMD:C_0805_2012Metric,C45783,https://lcsc.com/product-detail/C45783.html,0.1833,20,3.67
+4,Motor,lcsc:CONN-TH_530470410,C504989,https://lcsc.com/product-detail/C504989.html,0.1151,5,0.58
+1,USBLC6-2SC6,lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL,C7519,https://lcsc.com/product-detail/C7519.html,0.1459,5,0.73
+1,Polyfuse,lcsc:F2920,C21009,https://lcsc.com/product-detail/C21009.html,0.1489,5,0.75
+2,LED_Conn,Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,C265361,https://lcsc.com/product-detail/C265361.html,0.0733,5,0.37
+4,Hall,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,C131339,https://lcsc.com/product-detail/C131339.html,0.0387,10,0.39
+33,,lcsc:LED0603-R-RD_WHITE,C2290,https://lcsc.com/product-detail/C2290.html,0.0115,50,0.58
+7,10kR,Resistor_SMD:R_0603_1608Metric,C25804,https://lcsc.com/product-detail/C25804.html,0.0019,100,0.19
+1,GL5528,lcsc:RES-TH_L5.1-W4.3-P3.40-D0.5,C10081,https://lcsc.com/product-detail/C10081.html,0.0376,10,0.38
+5,5.1kR,Resistor_SMD:R_0603_1608Metric,C23186,https://lcsc.com/product-detail/C23186.html,0.0015,100,0.15
+1,1kR,Resistor_SMD:R_0603_1608Metric,C54920868,https://lcsc.com/product-detail/C54920868.html,0.0011,100,0.11
+5,10R,Resistor_SMD:R_0805_2012Metric,C17415,https://lcsc.com/product-detail/C17415.html,0.0037,100,0.37
+1,15kR,Resistor_SMD:R_0603_1608Metric,C2906995,https://lcsc.com/product-detail/C2906995.html,0.0016,100,0.16
+8,0.33R,Resistor_SMD:R_1206_3216Metric,C2907351,https://lcsc.com/product-detail/C2907351.html,0.0057,100,0.57
+1,ME6210A33PG,lcsc:SOT-89_L4.5-W2.5-P1.50-LS4.2-BR,C85233,https://lcsc.com/product-detail/C85233.html,0.0727,5,0.37
+1,TPS22918TDBVRQ1,lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,C2653760,https://lcsc.com/product-detail/C2653760.html,0.476,1,0.48
+1,ESP32-S3-WROOM-1-N8,lcsc:WIFIM-SMD_ESP32-S3-WROOM-1-N8,C2913198,https://lcsc.com/product-detail/C2913198.html,4.5172,1,4.52
+1,TJ-S1608SW6TDSLCCYRGB-A5,lcsc:LED-ARRAY-SMD_4P-L1.6-W0.8-BL-FD,C5356078,https://lcsc.com/product-detail/C5356078.html,0.0689,5,0.35
+1,IS31FL3236A-QFLS2-TR,lcsc:QFN-44_L5.0-W5.0-P0.40-BL-EP,C246443,https://lcsc.com/product-detail/C246443.html,0.6601,1,0.67
+4,A3144EUA-T-JSM,lcsc:TO-92S-3_L4.1-W1.7-P1.27-L,C18188954,https://lcsc.com/product-detail/C18188954.html,0.1444,5,0.73
+4,TMC2209-LA,Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias,C2150710,https://lcsc.com/product-detail/C2150710.html,2.5737,1,10.3
+1,Type-C,lcsc:USB-C-TH_TYPE-C16PLCH10.0-B143,C49261586,https://lcsc.com/product-detail/C49261586.html,0.4155,1,0.42
+1,PCB (All options default),,,https://cart.jlcpcb.com/quote,N/A,5,3.64
+1,Stencil,,,https://cart.jlcpcb.com/quote,6.57,1,6.57
+4,15BYG Motors (220mm cable),,,https://de.aliexpress.com/item/1005009520665217.html,3.56,1,14.24
+4,Deep Groove Ball Bearings ID 25mm X OD 37mm X Width 7mm,,,https://de.aliexpress.com/item/1005007479595390.html,2.65,1,10.6
+4,JST-PH 1x3 female jack,,,https://www.digikey.de/de/products/detail/jst-sales-america-inc/PHR-3/527357,0.1,1,0.4
+2,JST-PH 1x4 female jack,,,https://www.digikey.de/de/products/detail/jst-sales-america-inc/PHR-4/608606,0.09,1,0.18
+20,JST-PH crimps,,,https://www.digikey.de/de/products/detail/jst-sales-america-inc/SPH-002T-P0-5L/26214743,0.035,100,3.5
+,,,,,,,
+,,,,,,Total Price:,64.96?
