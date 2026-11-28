@@ -1,4 +1,4 @@
-Qty,Value,Footprint,LCSC Part,Link,Unit Price (?),MOQ,Price (?)
+Qty,Value,Footprint,LCSC Part,Link,Unit Price (€),MOQ,Price (€)
 6,10uF,Capacitor_SMD:C_0805_2012Metric,C15850,https://lcsc.com/product-detail/C15850.html,0.0289,20,0.58
 20,100nF,Capacitor_SMD:C_0603_1608Metric,C14663,https://lcsc.com/product-detail/C14663.html,0.0052,100,0.52
 3,1uF,Capacitor_SMD:C_0603_1608Metric,C15849,https://lcsc.com/product-detail/C15849.html,0.0089,50,0.45
@@ -34,4 +34,4 @@ Qty,Value,Footprint,LCSC Part,Link,Unit Price (?),MOQ,Price (?)
 2,JST-PH 1x4 female jack,,,https://www.digikey.de/de/products/detail/jst-sales-america-inc/PHR-4/608606,0.09,1,0.18
 20,JST-PH crimps,,,https://www.digikey.de/de/products/detail/jst-sales-america-inc/SPH-002T-P0-5L/26214743,0.035,100,3.5
 ,,,,,,,
-,,,,,,Total Price:,64.96?
+,,,,,,Total Price:,64.96€
