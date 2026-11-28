@@ -36,6 +36,7 @@ constexpr gpio_num_t kLdr = GPIO_NUM_1;
 }  // namespace pins
 
 namespace {
+constexpr uint32_t kSlowStartDurationMs = 60;
 constexpr uint16_t kLedI2cAddress = 0x40;
 
 void time_sync_task(void* pvParameters) {
@@ -53,6 +54,9 @@ void time_sync_task(void* pvParameters) {
 }  // namespace
 
 extern "C" void app_main(void) {
+  // Wait to make sure board is fully powered to lessen the chance of a brownout
+  vTaskDelay(pdMS_TO_TICKS(kSlowStartDurationMs));
+
   static LedController leds{kLedI2cAddress, pins::kLedScl, pins::kLedSda};
   leds.setRGBIndicatior(0, 205, 80);
 
